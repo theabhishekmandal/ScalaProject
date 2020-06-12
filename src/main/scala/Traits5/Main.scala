@@ -32,11 +32,11 @@ object Main {
     var obj = new defaultGreeter()
     obj.greet("Abhishek")
 
-    // class obj with overriden greeting implementation
+    // class obj with overridden greeting implementation
     var obj2 = new CustomGreeter(prefix = "Good Morning", suffix = "What are you doing")
     obj2.greet("Abhishek")
 
-    // class obj with overriden greeting implementation
+    // class obj with overridden greeting implementation
     var obj3 = new CustomGreeter2()
     obj3.greet("Abhishek")
   }
